@@ -16,8 +16,10 @@ add_subdirectory(vendor/GLAD)
 add_executable(Crown
   source/Game.cpp
   source/Main.cpp
+  source/Sprite.cpp
 
   source/Game.h
+  source/Sprite.h
 )
 
 if (TARGET SDL2::SDL2main)
